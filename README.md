@@ -8,6 +8,8 @@ pytorch == 1.12.1
 torch-sparse == 0.6.15
 
 torch-scatter == 2.0.9
+
+scipy == 1.9.3
 ```
 
 # 2. Train the teacher 
