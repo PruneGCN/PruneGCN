@@ -126,7 +126,7 @@ def drop_dims(mask_weight_tensor, threshold, torch_sparse=False):
         res = mask
     return res
 
-##### pruning remain mask percent #######
+
 def get_final_mask_epoch(Models, rewind_weight, args, handler,  keep_adj_weights2next_imp=False, use_adj_mask_aug=True, use_adj_random_pruning=False, use_emb_random_pruning=False, epoch=None, imp=None):
     if args.train_middle_model:
         model = Models.middle_teacher
