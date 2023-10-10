@@ -16,7 +16,6 @@ import numpy as np
 import pickle
 from Utils.Utils import *
 import os
-#from gowalla_stu.Model_bk import Model
 from Model import Model
 
 import setproctitle
