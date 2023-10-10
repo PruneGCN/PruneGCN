@@ -1,4 +1,3 @@
-"Implementation based on https://github.com/PetarV-/DGI"
 import numpy as np
 import scipy.sparse as sp
 import torch
