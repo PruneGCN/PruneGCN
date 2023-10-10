@@ -30,7 +30,6 @@ init = nn.init.xavier_uniform_
 uniformInit = nn.init.uniform
 
 
-
 def run_fix_mask(args, imp_num, rewind_weight_mask, coach, global_best_acc, global_best_acc_fixed, global_2nd_best_acc_fixed,  global_best_acc_train, global_2nd_best_acc_train):
 
     pruning_gcn.setup_seed(args.seed)
